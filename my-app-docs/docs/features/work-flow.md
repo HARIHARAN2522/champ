@@ -2,7 +2,11 @@
 
 Automate your cloud infrastructure deployments with visual workflow builder.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Overview
 
@@ -14,7 +18,11 @@ The **Work Flow** feature lets you connect to cloud providers (AWS, GCP, Azure),
 - **Google Cloud Platform (GCP)**
 - **Microsoft Azure**
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## How It Works
 
@@ -26,7 +34,11 @@ The workflow is divided into 5 simple steps:
 4. **Configure** — Customize module settings
 5. **Create** — Deploy your infrastructure
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Get Started
 
@@ -34,7 +46,11 @@ Click **Work Flow** in the sidebar, then select your cloud provider (e.g., **AWS
 
 Let’s walk through each step using **AWS** as an example.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **Masa Bot** to automate this process with natural language commands!
 

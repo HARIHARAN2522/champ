@@ -25,6 +25,10 @@ Common issues and how to fix them.
 ✅ Verify endpoint URLs  
 ✅ Contact support if issue persists
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Search for solutions in **Help > Knowledge Base** or ask Masa Bot!

@@ -24,7 +24,11 @@ h1 {
 
 h2 {
   font-size: 2rem;
+<<<<<<< HEAD
   border-bottom: 2px solid #FF7A00; /* Orange accent — matches your “Create Workspace” button */
+=======
+  border-bottom: none;
+>>>>>>> 72cf6a4 (updated)
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
@@ -62,6 +66,7 @@ a:hover {
 }
 
 /* === Sidebar === */
+<<<<<<< HEAD
 .sidebar {
   background-color: #0F1621; /* Same as body */
   border-right: 1px solid #2d2d2d;
@@ -69,6 +74,20 @@ a:hover {
 
 .sidebar .menu {
   padding: 1rem 0;
+=======
+/* src/css/custom.css */
+
+/* === Sidebar === */
+.sidebar {
+  background-color: #0d0d0d;
+  border-right: 1px solid #434343;
+  width: 280px;
+  padding: 1rem 0;
+}
+
+.sidebar .menu {
+  padding: 0.5rem 1rem;
+>>>>>>> 72cf6a4 (updated)
 }
 
 .sidebar .menu-item {
@@ -83,13 +102,35 @@ a:hover {
 }
 
 .sidebar .menu-item.active {
+<<<<<<< HEAD
   background-color: #FF7A00; /* Orange — matches your “Create Workspace” button */
+=======
+  background-color: #3498db;
+>>>>>>> 72cf6a4 (updated)
   color: white;
   font-weight: 600;
 }
 
 .sidebar .menu-item:hover {
+<<<<<<< HEAD
   background-color: #2d2d2d;
+=======
+  background-color: #333333;
+}
+
+.sidebar .menu-category {
+  font-weight: 700;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 0.5rem 0;
+  border-bottom: 1px solid #444444;
+  text-transform: uppercase; /* 👈 Make main topics ALL CAPS */
+  letter-spacing: 0.5px;
+}
+
+.sidebar .menu-item > span {
+  font-size: 1.1rem;
+>>>>>>> 72cf6a4 (updated)
 }
 
 /* === Navbar === */

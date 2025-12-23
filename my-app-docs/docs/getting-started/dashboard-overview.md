@@ -26,6 +26,10 @@ Displays:
 - Recent activity feed
 - Quick actions (e.g., “Create New Workspace”)
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Tip: Customize your dashboard by dragging widgets or changing layout in **Settings > Dashboard**.

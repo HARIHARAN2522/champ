@@ -2,7 +2,11 @@
 
 Customize module settings before deployment.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Example: Configure SNS
 
@@ -14,7 +18,11 @@ When you select the **SNS** module, you’ll see a configuration panel:
 - **Display Name** — Human-readable name (e.g., “MyProject Alert Notifications”)
 - **Email Subscription** — Email address to receive notifications (e.g., `admin@company.com`)
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Why Configure?
 
@@ -22,7 +30,11 @@ When you select the **SNS** module, you’ll see a configuration panel:
 - Customize behavior (e.g., email alerts)
 - Define dependencies (e.g., S3 bucket for CloudTrail)
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **Masa Bot** to generate config files automatically — just ask, “Generate SNS config for MyProject.”
 

@@ -23,6 +23,10 @@ Your AI-powered DevOps assistant — ask questions, get suggestions, and automat
 ✅ Use natural language: “I want to deploy my app to AWS”  
 ✅ Review bot actions before executing
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Masa Bot learns from your usage — the more you interact, the smarter it gets!

@@ -2,15 +2,38 @@ module.exports = {
   docs: [
     {
       type: 'doc',
+<<<<<<< HEAD
       id: 'Intro',
       label: '🚀 Welcome to CloudMaSa',
     },
+=======
+      id: 'intro',
+      label: '🚀 Welcome to CloudMaSa',
+    },
+
+
+     {
+      type: 'category',
+      label: 'OVERVIEW',
+      collapsed: false,
+      items: [
+        'overview/what-is-cloudmasa',
+        'overview/architecture',
+        'overview/basic-concepts',
+        'overview/products',
+      ],
+    },
+
+>>>>>>> 72cf6a4 (updated)
     {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
       items: [
+<<<<<<< HEAD
         'getting-started/installation',
+=======
+>>>>>>> 72cf6a4 (updated)
         'getting-started/first-login',
         'getting-started/dashboard-overview',
       ],

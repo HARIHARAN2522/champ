@@ -21,6 +21,10 @@ Define security, compliance, and operational rules for your infrastructure.
 - **Audit Mode**: Log violations
 - **Enforce Mode**: Block non-compliant actions
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Policies can be versioned and shared across teams.

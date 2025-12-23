@@ -21,6 +21,10 @@ Work together seamlessly with role-based access and shared workspaces.
 - Changes are synced in real-time
 - Audit logs track who did what
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Use comments and @mentions in workflows for collaboration.

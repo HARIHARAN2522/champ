@@ -2,7 +2,11 @@
 
 Choose which cloud resources to deploy. Each module represents a set of related resources.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Available Modules
 
@@ -25,7 +29,11 @@ Choose which cloud resources to deploy. Each module represents a set of related 
 - **SNS** — Simple Notification Service 
 - **ECR** — Elastic Container Registry 
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## How to Select
 

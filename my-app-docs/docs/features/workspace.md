@@ -2,7 +2,11 @@
 
 Manage your projects and teams from a single dashboard.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Workspace Manager
 
@@ -16,7 +20,11 @@ The **Workspace Manager** lets you create, view, and manage all your workspaces.
 
 ✅ That’s it! Your new workspace is ready.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Manage Existing Workspaces
 
@@ -25,7 +33,11 @@ The **Workspace Manager** lets you create, view, and manage all your workspaces.
 
 > ⚠️ **Warning**: Deleting a workspace is permanent — all data will be lost.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Workspaces Tab
 
@@ -45,7 +57,11 @@ View all workspaces you own or have access to.
 > - **Email**: `admin@cloudmasa.com`
 > - **Created**: `12/11/2025`
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Invitations Tab
 
@@ -59,7 +75,11 @@ If you see “No pending invitations”, it means:
 
 > 📣 **Pro Tip**: Click **Invite** next to a workspace to send an invitation.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Best Practices
 
@@ -67,7 +87,11 @@ If you see “No pending invitations”, it means:
 ✅ Assign roles: Admin, Editor, Viewer  
 ✅ Regularly review team members and permissions
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **Masa Bot** to automate workspace setup and team management!
 

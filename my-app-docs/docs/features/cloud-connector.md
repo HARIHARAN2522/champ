@@ -2,7 +2,11 @@
 
 Connect your AWS, GCP, or Azure accounts to manage cloud infrastructure from a single dashboard.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Connect Your Cloud Account
 
@@ -16,7 +20,11 @@ To connect a new cloud account:
 
 > 💡 Pro Tip: Use **Masa Bot** to say, “Connect my AWS account” — it will guide you through the process!
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Connected Cloud Accounts
 
@@ -34,7 +42,11 @@ Each connected account shows:
 
 > 🚫 To disconnect an account, click the **red X** button.
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Supported Providers
 
@@ -56,7 +68,11 @@ Each connected account shows:
 - Use Service Account Key for secure access
 - View resource usage and billing
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 ## Best Practices
 
@@ -65,7 +81,11 @@ Each connected account shows:
 ✅ Enable **CloudTrail** (AWS), **Azure Activity Logs**, or **GCP Audit Logs** for auditing  
 ✅ Regularly review connected accounts and permissions
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **Masa Bot** to ask, “Show me all my connected accounts” or “Disconnect my GCP account.”
 
