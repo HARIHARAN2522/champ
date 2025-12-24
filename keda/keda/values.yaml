@@ -52,7 +52,7 @@ clusterDomain: cluster.local
 
 crds:
   # -- Defines whether the KEDA CRDs have to be installed or not.
-  install: true
+  install: false
 
   # -- Custom annotations specifically for CRDs
   additionalAnnotations:
