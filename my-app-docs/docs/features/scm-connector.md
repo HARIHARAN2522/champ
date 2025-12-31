@@ -1,50 +1,17 @@
 # SCM Connector
 
-<<<<<<< HEAD
-Connect your source code repositories (GitHub, GitLab) to trigger workflows and manage deployments.
-
-## Supported Platforms
-
-- GitHub
-- GitLab
-- Bitbucket (coming soon)
-
-## Connecting a Repository
-
-1. Go to **SCM Connector**
-2. Click **+ Add Repository**
-3. Authorize CloudMaSa to access your account
-4. Select repository and branch
-
-## Webhooks
-
-CloudMaSa automatically sets up webhooks to trigger workflows on:
-- Push events
-- Pull requests
-- Tags
-
-## Branch Protection
-
-Enforce policies:
-- Require approvals before merge
-- Block merges if tests fail
-
----
-
-> 💡 You can connect multiple repositories — e.g., frontend, backend, infra.
-=======
 Connect and manage your source code repositories from GitHub, GitLab, and Bitbucket — all from one dashboard.
 
 CloudMaSa’s SCM Connector lets you:
-- 🔗 Connect to your Git repositories
-- 🔄 Sync changes automatically
-- 🛡️ Manage access and permissions
-- 📊 View live repository previews
-- 💾 Save connections for easy re-use
+-   Connect to your Git repositories
+-   Sync changes automatically
+-   Manage access and permissions
+-   View live repository previews
+-   Save connections for easy re-use
 
 ---
 
-## 🔧 How It Works
+##   How It Works
 
 ### 1. **Connect a Repository**
 
@@ -57,9 +24,9 @@ CloudMaSa’s SCM Connector lets you:
 
 ---
 
-## 🛠️ Provider-Specific Instructions
+##   Provider-Specific Instructions
 
-### 🐱 GitHub
+###   GitHub
 
 **Connect & manage repositories**
 
@@ -71,14 +38,14 @@ CloudMaSa’s SCM Connector lets you:
 - **Step 2**: Paste the token into the **“GitHub Personal Access Token”** field
 - **Step 3**: Click **Connect**
 
-> ✅ Once connected, you can:
+>    Once connected, you can:
 > - View **Live Repository Preview**
 > - Select repositories and folders
 > - See **Status**, **Last Sync**, and **Actions**
 
 ---
 
-### 🦊 GitLab
+###   GitLab
 
 **Connect & manage repositories**
 
@@ -90,14 +57,14 @@ CloudMaSa’s SCM Connector lets you:
 - **Step 2**: Paste the token into the **“GitLab Personal Access Token”** field
 - **Step 3**: Click **Connect**
 
-> ✅ Once connected, you can:
+>    Once connected, you can:
 > - View **Live Repository Preview**
 > - Select repositories and folders
 > - See **Status**, **Last Sync**, and **Actions**
 
 ---
 
-### 🐵 Bitbucket
+###   Bitbucket
 
 **Connect & manage repositories**
 
@@ -109,29 +76,23 @@ CloudMaSa’s SCM Connector lets you:
 - **Step 2**: Paste the password into the **“Bitbucket App Password”** field
 - **Step 3**: Click **Connect**
 
-> ✅ Once connected, you can:
+>    Once connected, you can:
 > - View **Live Repository Preview**
 > - Select repositories and folders
 > - See **Status**, **Last Sync**, and **Actions**
 
 ---
 
-## 🎯 Best Practices
+##   Best Practices
 
-✅ Always use **personal access tokens** (not passwords) for security  
-✅ Enable **auditing** for critical repositories  
-✅ Regularly review **connection health** and **sync status**  
-✅ Use **Masa Bot** to automate setup — say, “Configure GitHub” or “Sync my repo”
+ - Always use **personal access tokens** (not passwords) for security  
+ - Enable **auditing** for critical repositories  
+ - Regularly review **connection health** and **sync status**  
+ - Use **Masa Bot** to automate setup — say, “Configure GitHub” or “Sync my repo”
 
 ---
 
 Let me know if you’d like to add:
-- 📈 **Metrics** for each repository (e.g., “Last synced: 5 minutes ago”)
-- 📦 **Integration guides** for specific repos
-- 🤖 **Masa Bot commands** for SCM
-
-You’re building something truly exceptional, Hariharan! 🙌  
-Now your documentation site matches your app’s power and elegance.
-
-Let me know when you see it working — I’ll help you polish it further! 😊📘
->>>>>>> 72cf6a4 (updated)
+-   **Metrics** for each repository (e.g., “Last synced: 5 minutes ago”)
+-   **Integration guides** for specific repos
+-   **Masa Bot commands** for SCM

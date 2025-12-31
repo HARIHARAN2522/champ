@@ -27,10 +27,6 @@ Ensure your app has:
 
 Check **Dashboard > Workflows** for real-time status.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Use environment variables to switch between dev/staging/prod.

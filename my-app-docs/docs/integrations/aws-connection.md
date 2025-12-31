@@ -2,11 +2,7 @@
 
 Connect to your AWS account by providing credentials.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 1: AWS Credentials
 
@@ -18,11 +14,7 @@ Enter your AWS IAM credentials:
 
 > 🔐 All credentials are encrypted and stored securely.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 2: Test Connection
 
@@ -30,11 +22,7 @@ Click **Test Connection** to verify your credentials.
 
 ✅ If successful, you’ll see a green checkmark.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **IAM Roles** for production environments — they’re more secure than access keys.
 

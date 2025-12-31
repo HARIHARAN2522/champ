@@ -2,11 +2,7 @@
 
 The **CloudMaSa Dashboard** is your central hub for monitoring, managing, and automating your cloud infrastructure.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Welcome Message
 
@@ -17,11 +13,7 @@ When you log in, you’ll see:
 
 > 💡 Pro Tip: Use **Masa Bot** to ask, “What’s my role?” or “Who’s logged in?”
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Metrics Overview
 
@@ -39,11 +31,7 @@ Get a high-level view of your infrastructure at a glance.
 > - **Active Clusters**: `2`
 > - **Databases**: `3`
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Tools Overview
 
@@ -53,14 +41,10 @@ See which tools are actively being used in your environment.
 - Shows the number of **DevOps tools** (e.g., Argo CD, Jenkins, Terraform) currently deployed
 - Click to view: tool name, version, last used
 
-> 🛠️ Example:
+> 📊 Example:
 > - **Tools in Use**: `1` (e.g., Argo CD v2.5)
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Connection Status
 
@@ -74,15 +58,11 @@ Monitor the health of your integrations.
 - Shows the number of **cloud accounts** (AWS, GCP, Azure) you’ve connected
 - Click to view: account ID, region, last activity
 
-> 🔗 Example:
+> 📊 Example:
 > - **GitHub Status**: `Connected`
 > - **Connected Accounts**: `2` (AWS, GCP)
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Live Metrics
 
@@ -98,15 +78,11 @@ Real-time performance data for your infrastructure.
 - Trend line shows traffic patterns
 - Green arrow indicates improvement (e.g., `+9%`)
 
-> 📈 Example:
+> 📊 Example:
 > - **CPU Utilization**: `Avg: 57%`
 > - **Network Traffic**: `Throughput: 1.2 Gbps`
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Recent Activity
 
@@ -119,18 +95,14 @@ Track recent events in your environment.
   - Webhook triggers
   - Scaling events
 
-> 🕒 Example:
+> 📊 Example:
 > - **Just now**: `AWS credentials rotated` → `failed`
 > - **1 minute ago**: `Deployed frontend to staging` → `success`
 > - **2 minutes ago**: `GitHub webhook received` → `success`
 
 > 💡 Pro Tip: Use **Masa Bot** to ask, “Show me recent deployments” or “Why did the AWS rotation fail?”
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Cost Overview
 
@@ -151,28 +123,20 @@ Track your cloud spending in real-time.
   - DynamoDB: ₹0
 
 > 💰 Example:
-> - **Monthly Cost**: `₹0` (for account `vignesh_cm`)
+> - **Monthly Cost**: `₹0` 
 > - **Total for Account 0918**: `₹0`
 
 > 💡 Pro Tip: Use **Masa Bot** to ask, “Which service is costing the most?” or “Show me cost trends.”
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Best Practices
 
-✅ Always check the **Recent Activity** after a deployment  
-✅ Monitor **Live Metrics** during peak hours  
-✅ Review **Cost Overview** weekly to avoid surprises  
-✅ Use **Masa Bot** to automate routine checks — say, “Check CPU utilization for all clusters”
+>  Always check the **Recent Activity** after a deployment  
+>  Monitor **Live Metrics** during peak hours  
+>  Review **Cost Overview** weekly to avoid surprises  
+>  Use **Masa Bot** to automate routine checks — say, “Check CPU utilization for all clusters”
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 Let me know if you’d like to add **custom widgets**, **export options**, or **role-based views** next!

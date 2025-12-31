@@ -1,82 +1,48 @@
 # Database
 
-<<<<<<< HEAD
-Manage relational and NoSQL databases with ease.
-
-## Supported Databases
-
-- PostgreSQL
-- MySQL
-- MongoDB
-- Redis
-
-## Creating a Database
-
-1. Go to **Database**
-2. Click **+ New Database**
-3. Choose type and version
-4. Configure storage, backup, and access rules
-5. Click **Create**
-
-## Backups
-
-- Daily automated backups
-- Manual backups via **Actions > Backup Now**
-- Restore from **Backups** tab
-
-## Access Control
-
-- Whitelist IP addresses
-- Generate connection strings
-- Monitor query performance
-
----
-
-> 💡 Databases are encrypted at rest and in transit.
-=======
 CloudMaSa lets you **provision, configure, and manage** databases directly from your DevOps dashboard — no need to log into separate consoles or write complex YAML.
 
 Whether you need a relational SQL database, a document store, or a time-series engine, CloudMaSa provides one-click setup, secure connectivity, and lifecycle management.
 
 
 
-## 🧩 Supported Databases
+##   Supported Databases
 
 CloudMaSa supports 8+ databases across three categories:
 
-### 🔢 Relational (SQL)
+###   Relational (SQL)
 - **MySQL**: Battle-tested, high-performance RDBMS for web apps and services.
 - **PostgreSQL**: Advanced open-source database with JSON support, geospatial, and strong ACID compliance.
 - **MariaDB**: A drop-in MySQL replacement with enhanced performance and features.
 
-> ✅ Use relational databases for structured data, transactions, and complex queries — ideal for ERP, CRM, and financial systems.
+>   Use relational databases for structured data, transactions, and complex queries — ideal for ERP, CRM, and financial systems.
 
 
 
-### 📦 Document & NoSQL
+###   Document & NoSQL
 - **docDB**: AWS’s MongoDB-compatible database — scale document workloads without managing servers.
 - **Couchbase**: Distributed NoSQL database optimized for interactive applications and mobile backends.
 
-> ✅ Choose NoSQL for flexible schemas, horizontal scaling, and high-throughput ingestion — perfect for user profiles, catalogs, and event logging.
+>   Choose NoSQL for flexible schemas, horizontal scaling, and high-throughput ingestion — perfect for user profiles, catalogs, and event logging.
 
 
 
-### ⏱️ Time-Series
+###   Time-Series
 - **InfluxDB**: Purpose-built for metrics, monitoring, and real-time analytics.
 - **VictoriaMetrics**: High-performance, cost-efficient alternative for Prometheus-scale workloads.
 
-> ✅ Use time-series databases for DevOps observability — store CPU, memory, latency, and custom metrics with millisecond precision.
+>   Use time-series databases for DevOps observability — store CPU, memory, latency, and custom metrics with millisecond precision.
 
 
 
-### 🔄 Schema Management
+###   Schema Management
 - **Liquibase**: Open-source tool to manage database schema changes as version-controlled code.
 
-> ✅ Track, review, and deploy schema changes safely — no more `ALTER TABLE` run by hand.
+>   Track, review, and deploy schema changes safely — no more `ALTER TABLE` run by hand.
 
 
 
-## 🛠️ How CloudMaSa Helps
+##   How CloudMaSa Helps
 
 ### One-Click Provisioning
 Instead of writing Terraform or CloudFormation:
@@ -85,7 +51,7 @@ Instead of writing Terraform or CloudFormation:
 3. Set name, size, credentials
 4. Click **Create**
 
-✅ CloudMaSa handles VPC, security groups, backups, and monitoring automatically.
+  CloudMaSa handles VPC, security groups, backups, and monitoring automatically.
 
 
 
@@ -96,7 +62,7 @@ View live metrics for all databases in one place:
 - Query latency  
 - Storage growth  
 
-> 📊 Integrated with Prometheus + Grafana (no extra setup needed).
+>   Integrated with Prometheus + Grafana (no extra setup needed).
 
 
 
@@ -140,4 +106,3 @@ Let me know if you'd like to add:
 - Screenshots of your UI
 - CLI examples (`cloudmasa db create`)
 - Terraform snippets (for advanced users)
->>>>>>> 72cf6a4 (updated)

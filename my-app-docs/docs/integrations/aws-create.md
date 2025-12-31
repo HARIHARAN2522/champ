@@ -2,11 +2,7 @@
 
 You’re now ready to deploy your configured AWS resources.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Review Your Configuration
 
@@ -21,11 +17,7 @@ Before clicking **Create**, review your deployment summary:
 
 > 💡 This is an estimate — actual cost may vary based on usage.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 1: Click “Create Resources”
 
@@ -33,11 +25,7 @@ Click the **orange “Create Resources”** button to start the deployment.
 
 ✅ You’ll see a progress bar and real-time logs.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 2: Monitor Deployment
 
@@ -48,11 +36,7 @@ While deploying:
 
 > ⏳ Deployment may take 2–5 minutes.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 3: Verify Deployment
 
@@ -61,11 +45,7 @@ Once deployed:
 - Use **Masa Bot** to ask, “Did my AWS resources deploy successfully?”
 - View **Logs** for any warnings or errors
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Step 4: Manage Your Resources
 
@@ -74,23 +54,15 @@ After deployment:
 - **Delete** resources via the **Actions** column
 - **Scale** resources (e.g., add more EC2 instances)
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Best Practices
 
-✅ Always review your deployment summary before creating  
-✅ Use **Masa Bot** to automate deployments — say, “Deploy VPC, S3, and Lambda with default settings.”  
-✅ Monitor costs regularly — use **Dashboard > Costs** to track spending
+   Always review your deployment summary before creating  
+   Use **Masa Bot** to automate deployments — say, “Deploy VPC, S3, and Lambda with default settings.”  
+   Monitor costs regularly — use **Dashboard > Costs** to track spending
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **CloudTrail** to audit all API activity and ensure compliance.
 

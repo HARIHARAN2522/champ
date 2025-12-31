@@ -24,10 +24,6 @@ Connect your AWS account to manage EC2, S3, RDS, and more from CloudMaSa.
 ✅ Limit permissions to required services  
 ✅ Enable CloudTrail for auditing
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 AWS integration includes cost monitoring — view spending per service in **Dashboard > Costs**.

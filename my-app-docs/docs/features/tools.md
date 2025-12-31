@@ -1,47 +1,19 @@
 # Tools
 
-<<<<<<< HEAD
-Integrate popular DevOps tools like Argo CD, Jenkins, and more.
-
-## Supported Tools
-
-- Argo CD (GitOps)
-- Jenkins (CI/CD)
-- Terraform (Infrastructure as Code)
-- Helm (Package Manager)
-
-## Adding a Tool
-
-1. Go to **Tools**
-2. Click **+ Add Tool**
-3. Select tool and enter connection details
-4. Click **Connect**
-
-## Using Tools in Workflows
-
-In any workflow step:
-- Choose “Run Tool”
-- Select tool (e.g., Argo CD)
-- Configure parameters (e.g., repo, branch, namespace)
-
----
-
-> 💡 Tools are pre-configured with best practices — no setup needed!
-=======
 Manage your entire DevOps toolchain from one dashboard — no more switching between consoles.
 
 CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 
-- 🚀 CI/CD: Jenkins, GitLab, Argo CD
-- 🛡️ Security & Compliance: OPA Gatekeeper, Keycloak, HashiCorp Vault
-- 📊 Monitoring & Observability: Prometheus, Grafana, Loki
-- 🗃️ Artifact & Dependency Management: Nexus, SonarQube
-- 🌐 Container & Cluster: Kubernetes, Harbor, KEDA
-- 🔍 Code & Testing: Sourcegraph, ReportPortal, Jaeger
+-   CI/CD: Jenkins, GitLab, Argo CD
+-   Security & Compliance: OPA Gatekeeper, Keycloak, HashiCorp Vault
+-   Monitoring & Observability: Prometheus, Grafana, Loki
+-   Artifact & Dependency Management: Nexus, SonarQube
+-   Container & Cluster: Kubernetes, Harbor, KEDA
+-   Code & Testing: Sourcegraph, ReportPortal, Jaeger
 
 ---
 
-## 🔧 How It Works
+##   How It Works
 
 ### 1. **Add or Connect a Tool**
 
@@ -54,9 +26,9 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 
 ---
 
-## 🛠️ Tool Descriptions
+##   Tool Descriptions
 
-### 🚀 Argo CD
+###   Argo CD
 
 **A Kubernetes-native continuous deployment and workflow engine for GitOps.**
 
@@ -64,11 +36,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [argoproj.github.io](https://argoproj.github.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Use Argo CD to automate deployments based on Git repo changes.
+>   Use Argo CD to automate deployments based on Git repo changes.
 
 ---
 
-### 🚀 GitLab
+###   GitLab
 
 **A web-based DevOps lifecycle tool for Git repo management, CI/CD, and incident response.**
 
@@ -76,11 +48,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [gitlab.com](https://gitlab.com)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Manage your entire software lifecycle — from code to production — in one place.
+>   Manage your entire software lifecycle — from code to production — in one place.
 
 
 
-### 🚀 Jenkins
+###   Jenkins
 
 **An extensible open-source automation server for continuous integration and delivery.**
 
@@ -88,11 +60,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [www.jenkins.io](https://www.jenkins.io)
 - **Status**: Deploying... → Ready
 
-> ✅ Automate builds, tests, and deployments with plugins for every stack.
+>   Automate builds, tests, and deployments with plugins for every stack.
 
 
 
-### 📊 Prometheus
+###   Prometheus
 
 **A monitoring system and time series database for real-time metrics and alerting.**
 
@@ -100,11 +72,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [prometheus.io](https://prometheus.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Collect, store, and query metrics from your infrastructure.
+>   Collect, store, and query metrics from your infrastructure.
 
 
 
-### 📊 Grafana
+###   Grafana
 
 **An open-source analytics and monitoring solution — visualize metrics, logs, and traces.**
 
@@ -112,11 +84,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [grafana.com](https://grafana.com)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Create dashboards for your teams — from simple graphs to complex SLOs.
+>   Create dashboards for your teams — from simple graphs to complex SLOs.
 
 
 
-### 📊 Loki
+###   Loki
 
 **A horizontally-scalable, highly-available log aggregation system by Grafana — optimized for cost and speed.**
 
@@ -124,11 +96,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [grafana.com](https://grafana.com)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Store and search logs at scale — perfect for Kubernetes environments.
+>   Store and search logs at scale — perfect for Kubernetes environments.
 
 
 
-### 🗃️ Nexus
+###   Nexus
 
 **A repository manager to store, retrieve, and manage build artifacts and dependencies.**
 
@@ -136,11 +108,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [www.sonatype.com](https://www.sonatype.com)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Centralize your artifacts — Maven, npm, Docker, Helm — in one place.
+>   Centralize your artifacts — Maven, npm, Docker, Helm — in one place.
 
 
 
-### 🗃️ SonarQube
+###   SonarQube
 
 **Continuous code quality and security analysis — find bugs, vulnerabilities, and code smells.**
 
@@ -148,11 +120,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [sonarqube.org](https://sonarqube.org)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Enforce clean, secure code across your team.
+>   Enforce clean, secure code across your team.
 
 
 
-### 🛡️ HashiCorp Vault
+###   HashiCorp Vault
 
 **A tool for securely managing secrets, encryption keys, and identity-based access.**
 
@@ -160,11 +132,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [vaultproject.io](https://vaultproject.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Protect sensitive data — API keys, passwords, certificates — with dynamic secrets and policies.
+>   Protect sensitive data — API keys, passwords, certificates — with dynamic secrets and policies.
 
 
 
-### 🛡️ Keycloak
+###   Keycloak
 
 **An open-source identity and access management solution for modern applications.**
 
@@ -172,11 +144,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [www.keycloak.org](https://www.keycloak.org)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Add SSO, OAuth2, OpenID Connect to your apps — fast and secure.
+>   Add SSO, OAuth2, OpenID Connect to your apps — fast and secure.
 
 
 
-### 🌐 Kubernetes
+###   Kubernetes
 
 **An open-source system for automating deployment, scaling, and management of containerized applications.**
 
@@ -184,11 +156,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [kubernetes.io](https://kubernetes.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Manage your clusters — deploy, scale, and monitor — from CloudMaSa.
+>   Manage your clusters — deploy, scale, and monitor — from CloudMaSa.
 
 
 
-### 🌐 NGINX
+###   NGINX
 
 **A high-performance web server, reverse proxy, and load balancer.**
 
@@ -196,11 +168,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [nginx.org](https://nginx.org)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Route traffic, cache content, and secure your services with NGINX.
+>   Route traffic, cache content, and secure your services with NGINX.
 
 
 
-### 🌐 Harbor
+###   Harbor
 
 **A trusted cloud-native registry for storing, signing, and scanning container images.**
 
@@ -208,11 +180,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [goharbor.io](https://goharbor.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Secure your container supply chain — scan for vulnerabilities, sign images, enforce policies.
+>   Secure your container supply chain — scan for vulnerabilities, sign images, enforce policies.
 
 
 
-### 🔍 Sourcegraph
+###   Sourcegraph
 
 **A universal code search and intelligence platform for large-scale codebases.**
 
@@ -220,11 +192,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [sourcegraph.com](https://sourcegraph.com)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Search, navigate, and understand your codebase — across repos, languages, and teams.
+>   Search, navigate, and understand your codebase — across repos, languages, and teams.
 
 
 
-### 🔍 ReportPortal
+###   ReportPortal
 
 **An AI-powered test reporting and analytics platform for QA and DevOps teams.**
 
@@ -232,11 +204,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [reportportal.io](https://reportportal.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Track test results, analyze flakiness, and improve release quality with AI insights.
+>   Track test results, analyze flakiness, and improve release quality with AI insights.
 
 
 
-### 🔄 OPA Gatekeeper
+###   OPA Gatekeeper
 
 **A policy controller for Kubernetes — enforce compliance, security, and operational best practices.**
 
@@ -244,11 +216,11 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [openpolicyagent.org](https://openpolicyagent.org)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Define and enforce policies — e.g., “All pods must have resource limits”.
+>   Define and enforce policies — e.g., “All pods must have resource limits”.
 
 
 
-### 🔄 Thanos
+###   Thanos
 
 **A set of components to create a highly available, long-term Prometheus monitoring stack.**
 
@@ -256,26 +228,21 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **URL**: [thanos.io](https://thanos.io)
 - **Status**: Not Configured → Configure → Ready
 
-> ✅ Scale Prometheus for long-term storage, global querying, and high availability.
+>   Scale Prometheus for long-term storage, global querying, and high availability.
 
 
 
-## 🎯 Best Practices
+##   Best Practices
 
-✅ Always use **dedicated service accounts** for tools (never personal credentials)  
-✅ Enable **auditing** for critical tools (Keycloak, Vault, OPA)  
-✅ Regularly review **tool status** and **connection health**  
-✅ Use **Masa Bot** to automate setup — say, “Configure Prometheus” or “Start Jenkins”
+>  Always use **dedicated service accounts** for tools (never personal credentials)  
+>  Enable **auditing** for critical tools (Keycloak, Vault, OPA)  
+>  Regularly review **tool status** and **connection health**  
+>  Use **Masa Bot** to automate setup — say, “Configure Prometheus” or “Start Jenkins”
 
 
 
 Let me know if you’d like to add:
-- 📈 **Metrics** for each tool (e.g., “Last synced: 5 minutes ago”)
-- 📦 **Integration guides** for specific tools
-- 🤖 **Masa Bot commands** for each tool
+-   **Metrics** for each tool (e.g., “Last synced: 5 minutes ago”)
+-   **Integration guides** for specific tools
+-   **Masa Bot commands** for each tool
 
-You’re building something truly exceptional, Hariharan! 🙌  
-Now your documentation site matches your app’s power and elegance.
-
-Let me know when you see it working — I’ll help you polish it further! 😊📘
->>>>>>> 72cf6a4 (updated)

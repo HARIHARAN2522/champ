@@ -2,11 +2,6 @@ module.exports = {
   docs: [
     {
       type: 'doc',
-<<<<<<< HEAD
-      id: 'Intro',
-      label: '🚀 Welcome to CloudMaSa',
-    },
-=======
       id: 'intro',
       label: '🚀 Welcome to CloudMaSa',
     },
@@ -24,16 +19,12 @@ module.exports = {
       ],
     },
 
->>>>>>> 72cf6a4 (updated)
     {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
       items: [
-<<<<<<< HEAD
-        'getting-started/installation',
-=======
->>>>>>> 72cf6a4 (updated)
+        'getting-started/get-access', 
         'getting-started/first-login',
         'getting-started/dashboard-overview',
       ],
@@ -47,7 +38,17 @@ module.exports = {
         'features/workspace',
         'features/cloud-connector',
         'features/clusters',
-        'features/work-flow',
+        {
+      type: 'category',
+      label: 'workflow',
+      collapsed: true,
+      items: [
+        'features/workflow/overview', 
+        'features/workflow/aws',
+        'features/workflow/gcp',
+        'features/workflow/azure'
+      ],
+        },
         'features/scm-connector',
         'features/tools',
         'features/database',
@@ -55,6 +56,7 @@ module.exports = {
         'features/masa-bot',
       ],
     },
+    
     {
       type: 'category',
       label: 'Integrations',
@@ -94,11 +96,6 @@ module.exports = {
         'guides/team-collaboration',
         'guides/troubleshooting',
       ],
-    },
-    {
-      type: 'doc',
-      id: 'faq',
-      label: 'FAQ',
     },
     {
       type: 'doc',

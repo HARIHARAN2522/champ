@@ -27,10 +27,6 @@ Enforce rules:
 - Block merges if tests fail
 - Prevent force pushes
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 You can connect both GitHub and GitLab — great for hybrid teams!

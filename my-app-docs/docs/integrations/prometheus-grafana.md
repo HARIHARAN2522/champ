@@ -24,10 +24,6 @@ Set alerts:
 - Memory leak detected
 - HTTP 5xx errors
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Grafana dashboards are fully customizable — edit in **Settings > Dashboards**.

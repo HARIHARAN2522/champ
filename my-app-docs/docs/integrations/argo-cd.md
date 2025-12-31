@@ -20,10 +20,6 @@ Use Argo CD for GitOps-style deployments — sync your apps with Git repositorie
 
 View sync status, health, and history in CloudMaSa dashboard.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Argo CD integrates with your existing workflows — trigger syncs on Git push.

@@ -2,11 +2,7 @@
 
 Manage your projects and teams from a single dashboard.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Workspace Manager
 
@@ -18,26 +14,18 @@ The **Workspace Manager** lets you create, view, and manage all your workspaces.
 2. Enter a **Workspace Name**
 3. Click **Create**
 
-✅ That’s it! Your new workspace is ready.
+  That’s it! Your new workspace is ready.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Manage Existing Workspaces
 
 - **Invite Team Members** → Click **Invite** next to a workspace
 - **Delete Workspace** → Click **Delete** (confirm deletion)
 
-> ⚠️ **Warning**: Deleting a workspace is permanent — all data will be lost.
+>   **Warning**: Deleting a workspace is permanent — all data will be lost.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Workspaces Tab
 
@@ -57,11 +45,7 @@ View all workspaces you own or have access to.
 > - **Email**: `admin@cloudmasa.com`
 > - **Created**: `12/11/2025`
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Invitations Tab
 
@@ -73,25 +57,17 @@ If you see “No pending invitations”, it means:
 - You haven’t invited anyone yet
 - All previous invitations have been accepted or declined
 
-> 📣 **Pro Tip**: Click **Invite** next to a workspace to send an invitation.
+>   **Pro Tip**: Click **Invite** next to a workspace to send an invitation.
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 ## Best Practices
 
-✅ Use descriptive names for workspaces (e.g., `ProjectX-Dev`, `Production-Infra`)  
-✅ Assign roles: Admin, Editor, Viewer  
-✅ Regularly review team members and permissions
+>  Use descriptive names for workspaces (e.g., `ProjectX-Dev`, `Production-Infra`)  
+>  Assign roles: Admin, Editor, Viewer  
+>  Regularly review team members and permissions
 
-<<<<<<< HEAD
----
-=======
 
->>>>>>> 72cf6a4 (updated)
 
 > 💡 Pro Tip: Use **Masa Bot** to automate workspace setup and team management!
 

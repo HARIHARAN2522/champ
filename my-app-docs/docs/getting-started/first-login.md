@@ -3,30 +3,23 @@
 CloudMaSa is a **web-based DevOps platform** — no installation required.  
 Just log in and start managing your infrastructure.
 
+Below is a screenshot of the CloudMaSa login page:
 
+<img src="/images/login-page.png" alt="CloudMaSa Login Page" style={{ width: '60%', height: 'auto', display: 'block', margin: '0 auto' }} />
 
-## Step 1: Go to the Login Page
+Welcome Back to CloudMaSa.
+Log in to your workspace and continue managing your DevOps infrastructure with ease.
 
-Click the button below to open CloudMaSa:
+🔐 Secure & Flexible Sign-In Options
+You can sign in using:
 
-<a href="https://app.cloudmasa.com" target="_blank" rel="noopener noreferrer" style={{display: 'inline-block', background: '#FF7A00', color: 'white', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, textDecoration: 'none', marginTop: '1rem'}}>
-  Log in to CloudMaSa →
-</a>
-
-
-
-## Step 2: Sign In
-
-On the login page, you can:
-
-- **Sign in with Google, GitHub, GitLab, or Bitbucket**
-- Or use your **email and password**
-
-> 🔐 Your credentials are securely managed. CloudMaSa never stores passwords in plain text.
+**Google, GitHub, GitLab, or Bitbucket — for fast, secure SSO**
+Or enter your email and password if you prefer traditional credentials.
 
 
 
-## Step 3: Explore the Dashboard
+
+##  Explore the Dashboard
 
 Once logged in, you’ll see:
 - Your **Workspace** list

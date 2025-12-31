@@ -41,41 +41,47 @@ const config = {
 
   themeConfig:
     ({
-      // 🌑 Dark mode by default
+       // ✅ FORCE LIGHT MODE
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: 'light',
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
 
       // 🧭 Navbar with your logo
-      navbar: {
-        title: 'CloudMaSa',
-        logo: {
-          alt: 'CloudMaSa Logo',
-          src: 'img/app-logo.png', 
-          width: 36,
-          height: 36,
-          style: { marginRight: '0.5rem' },
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'docs',
-            position: 'left',
-            label: 'Documentation', 
-          },
-          {
-            href: 'https://github.com/your-username/cloudmasa',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+     navbar: {
+  title: 'CloudMaSa',
+  logo: {
+    alt: 'CloudMaSa Logo',
+    src: 'img/app-logo.png', 
+    width: 36,
+    height: 36,
+    style: { marginRight: '0.5rem' },
+  },
+  items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'docs',
+      position: 'left',
+      label: 'Documentation', 
+    },
+    // ✅ NEW: FAQ Link
+    {
+      to: '/faq',
+      label: 'FAQ',
+      position: 'left',
+    },
+    {
+      href: 'https://github.com/your-username/cloudmasa',
+      label: 'GitHub',
+      position: 'right',
+    },
+  ],
+},
 
       // 📜 Footer with logo + copyright
       footer: {
-        style: 'dark',
+        style: 'light',
         logo: {
           alt: 'CloudMaSa',
           src: 'img/app-logo.png',
@@ -88,7 +94,7 @@ const config = {
 
       // 💻 Code syntax highlighting (Dracula = dark & clean)
       prism: {
-        theme: prismThemes.dracula,
+        theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
 
