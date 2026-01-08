@@ -137,6 +137,3 @@ Track your cloud spending in real-time.
 >  Review **Cost Overview** weekly to avoid surprises  
 >  Use **Masa Bot** to automate routine checks — say, “Check CPU utilization for all clusters”
 
-
-
-Let me know if you’d like to add **custom widgets**, **export options**, or **role-based views** next!

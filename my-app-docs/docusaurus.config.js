@@ -53,7 +53,7 @@ const config = {
   title: 'CloudMaSa',
   logo: {
     alt: 'CloudMaSa Logo',
-    src: 'img/app-logo.png', 
+    src: '/images/cloudmasa-logo.png', 
     width: 36,
     height: 36,
     style: { marginRight: '0.5rem' },
@@ -84,12 +84,12 @@ const config = {
         style: 'light',
         logo: {
           alt: 'CloudMaSa',
-          src: 'img/app-logo.png',
+          src: '/images/cloudmasa-logo.png',
           width: 60,
           height: 60,
           href: '/',
         },
-        copyright: `Copyright © ${new Date().getFullYear()} CloudMaSa. All rights reserved.`,
+        copyright:  `Copyright © 2024 CloudMaSa. All rights reserved.`,
       },
 
       // 💻 Code syntax highlighting (Dracula = dark & clean)

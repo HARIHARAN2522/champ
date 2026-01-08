@@ -2,13 +2,13 @@
 
 Manage Kubernetes clusters across cloud providers from a single interface.
 
-## Supported Platforms
+### Supported Platforms
 
 - Amazon EKS
 - Google GKE
 - Azure AKS
 
-## Creating a Cluster
+### Creating a Cluster
 
 1. Go to **Clusters**
 2. Click **+ New Cluster**
@@ -16,19 +16,16 @@ Manage Kubernetes clusters across cloud providers from a single interface.
 4. Configure node size, count, and network settings
 5. Click **Create**
 
-## Monitoring
+### Monitoring
 
 View real-time metrics:
 - CPU/Memory usage
 - Pod status
 - Node health
 
-## Scaling
 
-- **Manual**: Adjust node count in cluster settings
-- **Auto**: Enable autoscaling based on load
 
-## AWS(EKS)
+### AWS(EKS)
 <img 
   src="/images/aws-eks.png" 
   alt="AWS EKS" 
@@ -48,7 +45,7 @@ Click any account to load its associated EKS clusters — including status, Kube
 
 This is the central hub for viewing, filtering, and accessing your AWS EKS environments.
 
-## Azure(AKS)
+### Azure(AKS)
 
 <img 
   src="/images/azure-aks.png" 
@@ -68,7 +65,7 @@ You can:
 
 This interface is the starting point for managing, deploying, or connecting to your Azure Kubernetes Service clusters.
 
-### GCP(GKS)
+### GCP(GKE)
 
 <img  
   src="/images/google-gks.png"  

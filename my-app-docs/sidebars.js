@@ -3,7 +3,7 @@ module.exports = {
     {
       type: 'doc',
       id: 'intro',
-      label: '🚀 Welcome to CloudMaSa',
+      label: '  Welcome to CloudMaSa',
     },
 
 
@@ -40,7 +40,7 @@ module.exports = {
         'features/clusters',
         {
       type: 'category',
-      label: 'workflow',
+      label: 'Workflow',
       collapsed: true,
       items: [
         'features/workflow/overview', 
@@ -57,36 +57,6 @@ module.exports = {
       ],
     },
     
-    {
-      type: 'category',
-      label: 'Integrations',
-      collapsed: true,
-      items: [
-          'integrations/aws',
-          'integrations/aws-connection',
-          'integrations/aws-existing-resources',
-          'integrations/aws-modules',
-          'integrations/aws-configure',
-          'integrations/aws-create',
-          'integrations/github-gitlab',
-          'integrations/argo-cd',
-          'integrations/prometheus-grafana',
-        ],  
-        
-    },
-    {
-      type: 'category',
-      label: 'API Reference',
-      collapsed: true,
-      items: [
-        'api/overview',
-        'api/authentication',
-        'api/workspaces',
-        'api/cloud-accounts',
-        'api/clusters',
-        'api/workflows',
-      ],
-    },
     {
       type: 'category',
       label: 'Guides & Best Practices',

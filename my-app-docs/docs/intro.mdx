@@ -14,17 +14,33 @@ import React from 'react';
     marginBottom: '2.5rem',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'flex-end',
-    paddingRight: '28rem',
+    justifyContent: 'flex-start',
+    paddingLeft: '2rem',
+    paddingRight: '2rem',
     boxShadow: '0 4px 16px rgba(0, 0, 0, 0.25)',
   }}
 >
+  <img
+    src="/images/cloudmasa-logo.png"
+    alt="CloudMaSa Logo"
+    style={{
+      width: '100px',
+      height: '100px',
+      marginRight: '0.5rem',
+      borderRadius: '8px',
+      flexShrink: 0, 
+    }}
+  />
   <h1
     style={{
       fontSize: '3.2rem',
       fontWeight: 700,
       margin: 0,
       color: '#000',
+      lineHeight: 1,           
+      display: 'flex',
+      alignItems: 'center',
+      marginTop: '12px',
     }}
   >
     CloudMaSa
@@ -72,41 +88,8 @@ CloudMaSa is more than a tool. It’s your **co-pilot for modern infrastructure*
 
 No YAML nightmares. No CLI fatigue. No context switching.
 
-Just **one platform. One workflow. Zero friction.**
-
-
-##  Ready to Use CloudMaSa?
-
-Start managing your infrastructure today — no setup required.
-
-<a
-  href="https://app.cloudmasa.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: 'inline-block',
-    background: '#4e7ea1ff',
-    color: 'white',
-    padding: '0.75rem 1.5rem',
-    borderRadius: '8px',
-    fontWeight: 600,
-    textDecoration: 'none',
-    marginTop: '1rem',
-  }}
->
-  Log in to CloudMaSa →
-</a>
- 
-
-
-## Who Is This For?
-
--  **Developers** who want to automate deployments  
--  **DevOps Engineers** managing cloud infrastructure  
--  **Teams** looking for a unified DevOps control plane  
--  **Beginners** learning modern DevOps tools  
-
-
+Just **one App. One View. One platform.**
+  
 
 ## What Can You Do with CloudMaSa?
 
@@ -117,18 +100,7 @@ Start managing your infrastructure today — no setup required.
  -  **Automate Infrastructure** with Terraform and Helm  
  -  **Invite Team Members** and manage permissions  
  -  **Central DevOps Console** – One place for all your tools
-
-
-
-## Get Started
-
-New to CloudMaSa? Start here:
-
-➡️ [Getting Started Guide](/docs/getting-started/installation) – Install, configure, and run your first workflow  
-➡️ [Architecture Overview](/docs/overview/architecture) – Understand how CloudMaSa works  
-➡️ [API Reference](/docs/api/overview) – Integrate CloudMaSa into your tools  
-
-
+ 
 
 > 💡 **Tip**: CloudMaSa runs as a web application. You can deploy it on your own server or use our managed version (coming soon!).
 

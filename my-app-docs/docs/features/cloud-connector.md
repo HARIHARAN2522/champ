@@ -8,6 +8,12 @@ Connect your AWS, GCP, or Azure accounts to manage cloud infrastructure from a s
 
 To connect a new cloud account:
 
+<img 
+  src="/images/cloudconnector.png" 
+  alt="CloudConnector" 
+  style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }} 
+/>
+
 1. Click **+ Create Workspace** (top-right corner) → **Cloud Connector**
 2. In the **Choose Cloud Provider** dropdown, select:
    - **Amazon Web Services (AWS)**
@@ -47,7 +53,7 @@ To connect an AWS account, you provide an IAM access key and secret key from a d
 - Security: Credentials are encrypted at rest and never logged or exposed in the UI.
 - Use case: Manage EKS clusters, auto-scaling groups, S3 buckets, and more—all from the CloudMaSa console.
 
-## Google Cloud Platform (GCP)
+### Google Cloud Platform (GCP)
 GCP integration uses a service account key file (JSON) and a Project ID.
 
 - Required roles: Assign roles like Compute Viewer, Kubernetes Engine Admin, and Storage Admin to the service account—only what’s needed.
