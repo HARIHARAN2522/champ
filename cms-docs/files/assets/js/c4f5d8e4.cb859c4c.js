@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkCloudMaSa_docs=self.webpackChunkCloudMaSa_docs||[]).push([[634],{192(a,u,d){d.r(u),d.d(u,{default:()=>l});d(6540);var e=d(4848);const l=function(){return(0,e.jsx)("div",{children:"Hello CloudMaSa"})}}}]);

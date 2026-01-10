@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>CloudMaSa Docs Blog</title>
+        <link>http://localhost/blog</link>
+        <description>CloudMaSa Docs Blog</description>
+        <lastBuildDate>Thu, 08 Jan 2026 13:23:22 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[01-01-2026-welcome]]></title>
+            <link>http://localhost/blog/01-01-2026-welcome</link>
+            <guid>http://localhost/blog/01-01-2026-welcome</guid>
+            <pubDate>Thu, 08 Jan 2026 13:23:22 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost/blog</id>
+    <title>CloudMaSa Docs Blog</title>
+    <updated>2026-01-08T13:23:22.060Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="http://localhost/blog"/>
+    <subtitle>CloudMaSa Docs Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[01-01-2026-welcome]]></title>
+        <id>http://localhost/blog/01-01-2026-welcome</id>
+        <link href="http://localhost/blog/01-01-2026-welcome"/>
+        <updated>2026-01-08T13:23:22.060Z</updated>
+    </entry>
+</feed>

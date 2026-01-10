@@ -1,0 +1,34 @@
+#deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "cms-docs.fullname" . }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ include "cms-docs.name" . }}
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ include "cms-docs.name" . }}
+    spec:
+      containers:                  
+        - name: cloudmasa            
+          image: nginx:alpine       
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 80
+              name: http
+          volumeMounts:
+            - name: cloudmasa-source
+              mountPath: /usr/share/nginx/html
+              readOnly: true
+          {{- if .Values.resources }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}
+      volumes:
+        - name: cloudmasa-source
+          configMap:
+            name: {{ include "cms-docs.fullname" . }}-docusaurus-source
