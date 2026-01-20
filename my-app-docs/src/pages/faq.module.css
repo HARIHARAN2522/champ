@@ -4,45 +4,64 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1.5rem;
+  /* Add this: */
+  background: rgba(26, 26, 46, 0.7); /* matches your cosmic theme */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(79, 172, 254, 0.2);
 }
 
 .faqItem {
-  margin-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(79, 172, 254, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .faqQuestion {
-  background: #f9f9f9;
-  padding: 1rem 1.5rem;
+  background: transparent;
+  padding: 1.2rem 1.5rem;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background 0.2s ease;
+  transition: all 0.2s ease;
   border: none;
   width: 100%;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  color: #ffffff;
   position: relative;
 }
 
 .faqQuestion:hover {
-  background: #f0f0f0;
+  background: rgba(79, 172, 254, 0.1);
+  color: #4facfe;
 }
 
 .faqQuestion:focus {
-  outline: 2px solid #007bff;
+  outline: 2px solid #4facfe;
   outline-offset: 2px;
 }
 
 .faqQuestion.active {
-  background: #e6f2ff;
+  background: rgba(255, 106, 0, 0.15);
+  color: #ff6a00;
 }
 
 .faqQuestion .icon {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   transition: transform 0.3s ease;
+  color: #e0e0ff;
+}
+
+.faqQuestion.active .icon {
+  transform: rotate(45deg);
+  color: #ff6a00;
 }
 
 .faqAnswer {
@@ -50,8 +69,10 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out, padding 0.3s ease-out;
-  background: #fff;
+  background: transparent;
   font-size: 0.95rem;
+  color: #cbd5f0;
+  line-height: 1.6;
 }
 
 .faqAnswer.show {

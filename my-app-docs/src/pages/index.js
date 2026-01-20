@@ -8,21 +8,21 @@ import Layout from '@theme/Layout';
 const FeatureList = [
   {
     title: '🚀 Easy to Use',
-    icon: 'https://img.icons8.com/color/96/rocket.png  ',
+    icon: 'https://img.icons8.com/color/96/rocket.png',
     description:
       'App-CloudMaSa is designed for developers and DevOps engineers to set up, deploy, and manage infrastructure with zero friction.',
     tooltipText: 'Get started in minutes',
   },
   {
     title: '🤖 AI-Powered MaSa Bot',
-    icon: 'https://img.icons8.com/color/96/robot.png  ',
+    icon: 'https://img.icons8.com/color/96/robot.png',
     description:
       'Get instant help, generate configs, and automate tasks with our intelligent assistant.',
     tooltipText: 'Your AI DevOps assistant',
   },
   {
     title: '🌐 Multi-Cloud Support',
-    icon: 'https://img.icons8.com/color/96/globe.png  ',
+    icon: 'https://img.icons8.com/color/96/globe.png',
     description:
       'Connect AWS, GCP, Azure, and self-managed clusters — all from one dashboard.',
     tooltipText: 'Unified cloud control',
@@ -39,26 +39,26 @@ function Feature({ title, icon, description, tooltipText }) {
       style={{
         padding: '1.5rem',
         borderRadius: '12px',
-        background: 'rgba(255, 255, 255, 0.9)',
-        backdropFilter: 'blur(4px)',
-        border: '1px solid rgba(0, 0, 0, 0.12)',
-        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.06)',
+        background: 'rgba(255, 255, 255, 0.05)',
+        backdropFilter: 'blur(8px)',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
+        boxShadow: '0 4px 16px rgba(0, 0, 0, 0.3)',
         transition: 'transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease',
         cursor: 'pointer',
         textAlign: 'center',
-        color: '#222',
+        color: '#ffffff',
         position: 'relative',
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.transform = 'scale(1.05)';
-        e.currentTarget.style.boxShadow = '0 6px 16px rgba(0, 0, 0, 0.12)';
-        e.currentTarget.style.border = '1px solid rgba(0, 0, 0, 0.18)';
+        e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.4)';
+        e.currentTarget.style.border = '1px solid rgba(255, 255, 255, 0.2)';
         setShowTooltip(true);
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = 'scale(1)';
-        e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.06)';
-        e.currentTarget.style.border = '1px solid rgba(0, 0, 0, 0.12)';
+        e.currentTarget.style.boxShadow = '0 4px 16px rgba(0, 0, 0, 0.3)';
+        e.currentTarget.style.border = '1px solid rgba(255, 255, 255, 0.1)';
         setShowTooltip(false);
       }}
     >
@@ -70,14 +70,13 @@ function Feature({ title, icon, description, tooltipText }) {
             top: '-32px',
             left: '50%',
             transform: 'translateX(-50%)',
-            backgroundColor: '#1a1a1a',
+            backgroundColor: 'rgba(0,0,0,0.85)',
             color: '#fff',
             padding: '4px 10px',
             borderRadius: '6px',
             fontSize: '0.8rem',
             whiteSpace: 'nowrap',
             zIndex: 10,
-            opacity: 0.95,
             pointerEvents: 'none',
           }}
         >
@@ -92,15 +91,16 @@ function Feature({ title, icon, description, tooltipText }) {
           style={{
             width: '64px',
             height: '64px',
+            filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
           }}
         />
       </div>
-      <h3 style={{ fontSize: '1.3rem', fontWeight: 600, margin: '0.5rem 0' }}>
+      <h3 style={{ fontSize: '1.3rem', fontWeight: 600, margin: '0.5rem 0', color: '#ffffff' }}>
         {title}
       </h3>
       <p
         style={{
-          color: '#555',
+          color: '#cbd5f0',
           lineHeight: 1.6,
           fontSize: '0.95rem',
           marginTop: '0.5rem',
@@ -122,22 +122,58 @@ export default function Home() {
       title={`${siteConfig.title} — ${siteConfig.tagline}`}
       description={siteConfig.tagline}
     >
+      {/* === HERO SECTION === */}
       <div
         style={{
           position: 'relative',
           minHeight: '100vh',
-          backgroundColor: '#fbfbfb',
+          background: 'linear-gradient(135deg, #0f0c29, #302b63, #24243e)',
+          color: '#ffffff',
           overflow: 'hidden',
+          padding: '4rem 1rem',
+          textAlign: 'center',
+          fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
         }}
       >
-        {/* Hero */}
+        {/* Starry Background */}
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            pointerEvents: 'none',
+            zIndex: -1,
+          }}
+        >
+          {[...Array(60)].map((_, i) => (
+            <div
+              key={i}
+              className="star"
+              style={{
+                position: 'absolute',
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
+                width: `${Math.random() * 2 + 1}px`,
+                height: `${Math.random() * 2 + 1}px`,
+                backgroundColor: 'white',
+                borderRadius: '50%',
+                opacity: Math.random() * 0.8 + 0.2,
+                animationDelay: `${Math.random() * 3}s`,
+              }}
+            />
+          ))}
+        </div>
+
+        {/* Hero Content */}
         <header
           style={{
             position: 'relative',
             zIndex: 1,
             textAlign: 'center',
             padding: '5rem 1rem 3rem',
-            color: '#111',
+            color: '#ffffff',
           }}
         >
           <h1
@@ -145,6 +181,8 @@ export default function Home() {
               fontSize: '2.8rem',
               fontWeight: 700,
               margin: '0 0 1rem',
+              textShadow: '0 2px 6px rgba(0,0,0,0.3)',
+              color: '#ffffff',
             }}
           >
             {siteConfig.title}
@@ -152,11 +190,11 @@ export default function Home() {
           <p
             style={{
               fontSize: '1.3rem',
-              opacity: 0.85,
+              opacity: 0.9,
               maxWidth: '700px',
               margin: '0 auto 2rem',
               lineHeight: 1.6,
-              color: '#444',
+              color: '#e0e0ff',
             }}
           >
             {siteConfig.tagline}
@@ -167,30 +205,29 @@ export default function Home() {
             <Link
               to="/docs/intro"
               style={{
-                background: 'rgba(86, 189, 194, 0.9)',
-                backdropFilter: 'blur(12px)',
-                border: '1px solid rgba(0, 0, 0, 0.1)',
-                color: '#2c3e50',
+                background: 'linear-gradient(90deg, #ff6a00, #ee0979)',
+                color: '#fff',
                 textDecoration: 'none',
                 padding: '0.85rem 2.2rem',
-                borderRadius: '12px',
+                borderRadius: '30px',
                 fontWeight: 600,
                 fontSize: '1.1rem',
                 display: 'inline-block',
                 transition: 'all 0.3s ease',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                boxShadow: '0 4px 12px rgba(0,0,0,0.25)',
                 letterSpacing: '0.5px',
                 position: 'relative',
                 zIndex: 2,
+                border: 'none',
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'scale(1.04)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+                e.currentTarget.style.transform = 'scale(1.05)';
+                e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.35)';
                 setShowButtonTooltip(true);
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'scale(1)';
-                e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.25)';
                 setShowButtonTooltip(false);
               }}
             >
@@ -206,14 +243,13 @@ export default function Home() {
                   left: '50%',
                   transform: 'translateX(-50%)',
                   marginBottom: '8px',
-                  backgroundColor: '#1a1a1a',
+                  backgroundColor: 'rgba(0,0,0,0.85)',
                   color: '#fff',
                   padding: '5px 12px',
                   borderRadius: '6px',
                   fontSize: '0.85rem',
                   whiteSpace: 'nowrap',
-                  zIndex: 1,
-                  opacity: 0.95,
+                  zIndex: 10,
                   pointerEvents: 'none',
                 }}
               >

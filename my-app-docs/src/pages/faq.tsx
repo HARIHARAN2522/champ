@@ -1,9 +1,8 @@
 // src/pages/faq.tsx
-
 import React, { useState } from 'react';
 import clsx from 'clsx';
-import styles from './faq.module.css';
-import Layout from '@theme/Layout'; // 👈 Import Layout
+import styles from './faq.module.css'; // ✅ Only once!
+import Layout from '@theme/Layout';
 
 const FaqItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,15 +54,28 @@ export default function FAQ() {
     }
   ];
 
-  return (
-    <Layout title="FAQ" description="Frequently asked questions about CloudMaSa">
+ // Inside your FAQ component return:
+return (
+  <Layout title="FAQ" description="Frequently asked questions about CloudMaSa">
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '2rem 0',
+      }}
+    >
       <div className={styles.faqContainer}>
-        <h1>FAQ</h1>
-        <p>Frequently asked questions about CloudMaSa.</p>
+        <h1 style={{ textAlign: 'center', marginBottom: '1.5rem' }}>FAQ</h1>
+        <p style={{ textAlign: 'center', color: '#cbd5f0', marginBottom: '2rem' }}>
+          Frequently asked questions about CloudMaSa.
+        </p>
         {faqData.map((item, index) => (
           <FaqItem key={index} question={item.question} answer={item.answer} />
         ))}
       </div>
-    </Layout>
-  );
+    </div>
+  </Layout>
+);
 }

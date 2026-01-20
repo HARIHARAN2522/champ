@@ -54,10 +54,10 @@ const config = {
   title: 'CloudMaSa',
   logo: {
     alt: 'CloudMaSa Logo',
-    src: '/images/cloudmasa-logo.png', 
+    src: '/images/cloudmasa-logo1.png', 
     width: 36,
     height: 36,
-    style: { marginRight: '0.5rem' },
+    style: { marginRight: '0rem' },
   },
   items: [
     {
@@ -85,7 +85,7 @@ const config = {
         style: 'light',
         logo: {
           alt: 'CloudMaSa',
-          src: '/images/cloudmasa-logo.png',
+          src: '/images/cloudmasa-logo1.png',
           width: 60,
           height: 60,
           href: '/',
