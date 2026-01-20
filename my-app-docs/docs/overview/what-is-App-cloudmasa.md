@@ -1,4 +1,4 @@
-# What is CloudMaSa?
+# What is App-CloudMaSa?
 
 **CloudMaSa** is an **All-in-One DevOps Automation Platform** that empowers developers and teams to manage cloud infrastructure, CI/CD pipelines, monitoring, and more — from a single dashboard.
 

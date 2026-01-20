@@ -1,12 +1,12 @@
-# Changelog\n\n## v1.0.0\n- Initial release
 # Changelog
 
 All notable changes to CloudMaSa.
 
-## v1.0.0 — 2025-04-01
+## v1.0 — 2025-12-31
+https://github.com/CloudMasa-Tech/app-cloud/releases/tag/v1.0
 
 ### Added
-- Initial release with core features:
+  - Initial release with core features:
   - Workspace management
   - Cloud connector (AWS, GCP, Azure)
   - Kubernetes cluster management

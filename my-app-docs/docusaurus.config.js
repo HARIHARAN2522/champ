@@ -1,7 +1,7 @@
 // cloudmasa.config.js
 import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
-  title: 'CloudMaSa',
+  title: 'App-CloudMaSa',
   tagline: 'All-in-One DevOps Automation Platform',
   favicon: 'img/favicon.ico',
 
@@ -28,6 +28,7 @@ const config = {
       '@docusaurus/preset-classic',
       {
         docs: {
+           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: 'docs',
         },
@@ -48,7 +49,7 @@ const config = {
         respectPrefersColorScheme: false,
       },
 
-      // 🧭 Navbar with your logo
+     
      navbar: {
   title: 'CloudMaSa',
   logo: {
@@ -65,14 +66,14 @@ const config = {
       position: 'left',
       label: 'Documentation', 
     },
-    // ✅ NEW: FAQ Link
+  
     {
       to: '/faq',
       label: 'FAQ',
       position: 'left',
     },
     {
-      href: 'https://github.com/your-username/cloudmasa',
+      href: 'https://github.com/CloudMasa-Tech',
       label: 'GitHub',
       position: 'right',
     },

@@ -12,7 +12,7 @@ module.exports = {
       label: 'OVERVIEW',
       collapsed: false,
       items: [
-        'overview/what-is-cloudmasa',
+        'overview/what-is-App-cloudmasa',
         'overview/architecture',
         'overview/basic-concepts',
         'overview/products',

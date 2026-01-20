@@ -2,6 +2,12 @@
 
 CloudMaSa follows a **modular, microservices-based architecture** designed for scalability, security, and ease of integration.
 
+<img 
+  src="/images/architecture-diagram.png" 
+  alt="Architecture Diagram" 
+  style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }} 
+/>
+
 
 
 ## High-Level Components
