@@ -49,9 +49,29 @@ export default function FAQ() {
       answer: "A: Yes! Connect AWS, GCP, Azure, and more — manage them from one dashboard."
     },
     {
-      question: "Q: Can I integrate with my existing tools?",
-      answer: "A: Absolutely! We offer API integrations and webhooks to connect with popular DevOps, monitoring, and CI/CD tools."
-    }
+    question: "Q: Do I need to write Terraform or ARM templates?",
+    answer: "A: No! CloudMaSa generates production-ready Infrastructure-as-Code (Terraform) behind the scenes. You configure resources visually, and we handle the code. You can always preview and export it."
+  },
+  {
+    question: "Q: What is Masa Bot?",
+    answer: "A: Masa Bot is your AI-powered DevOps assistant. Ask it questions like “Show me my S3 buckets” or “Deploy an EKS cluster” — and it will fetch data, generate configs, or trigger workflows using natural language."
+  },
+  {
+    question: "Q: How does CloudMaSa connect to my cloud account?",
+    answer: "A: Securely via standard credentials:\n- **AWS**: IAM Access Key + Secret\n- **Azure**: Service Principal (Client ID + Secret)\n- **GCP**: Service Account JSON key\nAll credentials are encrypted and never exposed in logs."
+  },
+  {
+    question: "Q: Can I see what Terraform code will be deployed?",
+    answer: "A: Yes! Before any deployment, CloudMaSa shows a full IaC preview. You can inspect, validate, and approve the exact Terraform code that will run — no surprises."
+  },
+  {
+    question: "Q: Does CloudMaSa support GitOps?",
+    answer: "A: Yes! Deployments can be integrated with GitHub/GitLab webhooks. You can also export configurations as reusable templates and manage them via Git."
+  },
+  {
+    question: "Q: How are costs calculated?",
+    answer: "A: CloudMaSa uses official cloud provider pricing APIs to estimate monthly costs in real time — based on region, instance type, storage, and data transfer. Estimates update as you configure resources."
+  }
   ];
 
  // Inside your FAQ component return:

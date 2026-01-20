@@ -1,8 +1,8 @@
 # Changelog
 
-All notable changes to CloudMaSa.
+**All notable changes to CloudMaSa.**
 
-## v1.0 — 2025-12-31
+## v1.0 — Released on December 31, 2025
 https://github.com/CloudMasa-Tech/app-cloud/releases/tag/v1.0
 
 ### Added

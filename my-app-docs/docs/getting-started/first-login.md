@@ -5,7 +5,11 @@ Just log in and start managing your infrastructure.
 
 Below is a screenshot of the CloudMaSa login page:
 
-<img src="/images/login-page.png" alt="CloudMaSa Login Page" style={{ width: '60%', height: 'auto', display: 'block', margin: '0 auto' }} />
+<img
+src="/images/login-page.png"
+alt="Login Page"
+style={{ width: '60%', height: '80%', display: 'block', margin: '0 auto' }}
+/>
 
 Welcome Back to CloudMaSa.
 Log in to your workspace and continue managing your DevOps infrastructure with ease.

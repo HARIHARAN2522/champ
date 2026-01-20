@@ -62,7 +62,7 @@ module.exports = {
       label: 'Guides & Best Practices',
       collapsed: true,
       items: [
-        'guides/automate-k8s-deploy',
+      
         'guides/team-collaboration',
         'guides/troubleshooting',
       ],
