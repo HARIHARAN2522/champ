@@ -1,6 +1,7 @@
+# Overview
 Automate your cloud infrastructure deployments with visual workflow builder.
 
-The **Work Flow** feature lets you connect to cloud providers (AWS, GCP, Azure), scan existing resources, select modules, configure them, and deploy — all from a single interface.
+The **Work Flow** feature lets you connect to cloud providers (AWS, GCP, Azure), scan existing resources, select modules, configure them and deploy — all from a single interface.
 
 ### Supported Providers
 
@@ -36,5 +37,5 @@ You’ll learn:
 - The importance of verifying your Estimated Cost and Infrastructure as Code preview before proceeding.
 - Whether you’re confirming your resource selection or revisiting existing deployments, the intuitive workflow ensures you’re always in control.
 
-> 👉 Tip: Use the “Back” button anytime to refine your setup — no need to start over!
+> 💡 Tip: Made a mistake or want to change something? Click the Connection, Modules, or Create icon at the top to jump back to any step. Your configuration stays intact.
 

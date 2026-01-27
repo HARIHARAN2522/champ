@@ -1,6 +1,7 @@
+# GCP
 Automate Your Google Cloud Infrastructure with a Guided, Visual Workflow — No CLI, No Terraform Files, No Guesswork
 
-The **GCP Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure, and deploy Google Cloud resources in minutes. Whether you're provisioning a Compute Engine VM, launching a GKE cluster, or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
+The **GCP Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure and deploy Google Cloud resources in minutes. Whether you're provisioning a Compute Engine VM, launching a GKE cluster or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
 
 All deployments are:
 
@@ -32,7 +33,7 @@ Here’s what you’ll do:
 
 ## 2. Existing Resources — View resources already deployed via IaC (Terraform)
 <img
-src="/images/gcp-workflow-existing-resource.png"
+src="/images/gcp-workflow-existing.png"
 alt="GCP Existing Resources Workflow"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
@@ -43,7 +44,7 @@ This screen shows:
 
 - All Terraform-managed deployments (like dep-1767006374290)
 - Resource type (e.g., GKE, Compute Engine) and count
-- Click any deployment to view details, logs, or destroy it safely
+- Click any deployment to view details, logs or destroy it safely
 - “New Deployment” button to start fresh with a clean slate
 
 ## 3. Modules — Select which cloud resources to deploy
@@ -53,7 +54,7 @@ alt="GCP Modules"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-Once connected, choose from a curated library of pre-built, secure, and scalable modules — each representing a set of related GCP resources.
+Once connected, choose from a curated library of pre-built, secure and scalable modules — each representing a set of related GCP resources.
 
 These modules are designed to follow Google Cloud best practices and can be deployed individually or combined to build complex architectures.
 
@@ -71,7 +72,7 @@ alt="GCP configure"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code, and provider settings.
+This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code and provider settings.
 
 Here’s what you’ll see:
 
@@ -87,7 +88,7 @@ alt="GCP create"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably, and with real-time feedback.
+You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably and with real-time feedback.
 
 The final summary shows:
 

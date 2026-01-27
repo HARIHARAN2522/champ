@@ -27,7 +27,7 @@ Or enter your email and password if you prefer traditional credentials.
 
 Once logged in, you’ll see:
 - Your **Workspace** list
-- Quick links to **Cloud Connector**, **Clusters**, and **Work Flow**
+- Quick links to **Cloud Connector**, **Clusters** and **Work Flow**
 - Real-time **metrics and activity feed**
 
 Click around — everything is designed to be intuitive!

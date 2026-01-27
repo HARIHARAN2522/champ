@@ -81,7 +81,7 @@ View live metrics for all databases in one place:
 
 
 
-## 💡 When to Use Which?
+##  When to Use Which?
 
 | Use Case | Recommended Database |
 |--------|----------------------|

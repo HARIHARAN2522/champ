@@ -21,7 +21,7 @@ import React from 'react';
   }}
 >
   <img
-    src="/images/cloudmasa-logo.png"
+    src="/images/cloudmasa-logo1.png"
     alt="CloudMaSa Logo"
     style={{
       width: '100px',
@@ -49,9 +49,11 @@ import React from 'react';
 
 # Welcome to CloudMaSa 
 
-**CloudMaSa** is a powerful, all-in-one **DevOps automation platform** that helps developers and teams manage cloud infrastructure, CI/CD pipelines, monitoring, and more — from a single dashboard.
+**CloudMaSa** is an independent DevOps tooling initiative founded in Pondicherry, India, by engineers who have managed complex cloud environments across startups and consulting engagements. We built CloudMaSa because modern DevOps workflows are fragmented, forcing teams to juggle Helm, Terraform, Argo CD and monitoring tools in isolation. Our solution is a unified, self-hosted console that brings coherence without compromise.
 
-Whether you're setting up Kubernetes clusters, deploying applications, integrating GitOps workflows, or connecting cloud services like AWS, Grafana, or Prometheus — **CloudMaSa simplifies your DevOps journey**.
+We believe infrastructure automation should be transparent, composable and human-centered. That’s why CloudMaSa integrates with your existing tools instead of replacing them. It’s also why our documentation, deployment model and user interface are designed for engineers who value control over convenience.
+
+Today, CloudMaSa is used by small engineering teams to manage multi-cloud Kubernetes deployments, CI/CD pipelines and observability stacks—all from a single dashboard they fully own.
 
 <div style={{ 
   position: 'relative', 
@@ -84,7 +86,7 @@ Whether you're setting up Kubernetes clusters, deploying applications, integrati
 
 ## You’re Not Just Managing Infrastructure — You’re Building the Future
 
-CloudMaSa is more than a tool. It’s your **co-pilot for modern infrastructure** — automating deployments, connecting clouds, and turning chaos into calm — all from one dashboard.
+CloudMaSa is more than a tool. It’s your **co-pilot for modern infrastructure**  automating deployments, connecting clouds and turning chaos into calm — all from one dashboard.
 
 No YAML nightmares. No CLI fatigue. No context switching.
 
@@ -93,10 +95,10 @@ Just **one App. One View. One platform.**
 
 ## What Can You Do with CloudMaSa?
 
- -  **Connect Cloud Accounts** – AWS, GCP, Azure, and more  
+ -  **Connect Cloud Accounts** – AWS, GCP, Azure and more  
  -  **Deploy & Manage Kubernetes Clusters**  
- -  **Run CI/CD Pipelines** with Argo CD, Jenkins, or GitLab  
- -  **Monitor Applications** using Grafana, Prometheus, and Loki  
+ -  **Run CI/CD Pipelines** with Argo CD, Jenkins or GitLab  
+ -  **Monitor Applications** using Grafana, Prometheus and Loki  
  -  **Automate Infrastructure** with Terraform and Helm  
  -  **Invite Team Members** and manage permissions  
  -  **Central DevOps Console** – One place for all your tools

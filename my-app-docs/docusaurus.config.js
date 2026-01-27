@@ -3,8 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'App-CloudMaSa',
   tagline: 'All-in-One DevOps Automation Platform',
-  favicon: 'img/favicon.ico',
-
+  favicon: '/images/cloudmasa-logo.png1  ',
   // Local dev URL
   url: 'http://localhost:3000',
   baseUrl: '/',

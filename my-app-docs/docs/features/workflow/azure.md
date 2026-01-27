@@ -1,6 +1,7 @@
+# Azure
 Automate your Azure Infrastructure with a Guided, Visual Workflow — No CLI, No ARM Templates, No Guesswork
 
-The **Azure Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure, and deploy Azure resources in minutes. Whether you're provisioning a Virtual Network, launching an AKS cluster, or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
+The **Azure Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure and deploy Azure resources in minutes. Whether you're provisioning a Virtual Network, launching an AKS cluster or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
 
 All deployments are:
 -  **Secure**: Credentials encrypted, least-privilege enforced  
@@ -47,7 +48,7 @@ This screen shows:
 
 - All Terraform-managed deployments (like dep-1767006374290)
 - Resource type (e.g., AKS, VM, VNet) and count
-- Click any deployment to view details, logs, or destroy it safely
+- Click any deployment to view details, logs or destroy it safely
 - “New Deployment” button to start fresh with a clean slate
 
 ## 3. Modules — Select which cloud resources to deploy
@@ -57,7 +58,7 @@ alt="Azure Modules"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-Once connected, choose from a curated library of pre-built, secure, and scalable modules — each representing a set of related Azure resources.
+Once connected, choose from a curated library of pre-built, secure and scalable modules — each representing a set of related Azure resources.
 
 These modules are designed to follow Azure best practices and can be deployed individually or combined to build complex architectures.
 
@@ -77,7 +78,7 @@ alt="Azure configure"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code, and provider settings.
+This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code and provider settings.
 
 Here’s what you’ll see:
 
@@ -93,7 +94,7 @@ alt="Azure create"
 style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }}
 />
 
-You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably, and with real-time feedback.
+You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably and with real-time feedback.
 
 The final summary shows:
 

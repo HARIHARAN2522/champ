@@ -1,4 +1,4 @@
-# Tools
+# Tools-Overview
 
 Manage your entire DevOps toolchain from one dashboard — no more switching between consoles.
 
@@ -133,30 +133,6 @@ CloudMaSa provides **unified control** over 20+ popular DevOps tools, including:
 - **Status**: Not Configured → Configure → Ready
 
 >   Protect sensitive data — API keys, passwords, certificates — with dynamic secrets and policies.
-
-
-
-###   Keycloak
-
-**An open-source identity and access management solution for modern applications.**
-
-- **Category**: Identity Management
-- **URL**: [www.keycloak.org](https://www.keycloak.org)
-- **Status**: Not Configured → Configure → Ready
-
->   Add SSO, OAuth2, OpenID Connect to your apps — fast and secure.
-
-
-
-###   Kubernetes
-
-**An open-source system for automating deployment, scaling, and management of containerized applications.**
-
-- **Category**: Container Orchestration
-- **URL**: [kubernetes.io](https://kubernetes.io)
-- **Status**: Not Configured → Configure → Ready
-
->   Manage your clusters — deploy, scale, and monitor — from CloudMaSa.
 
 
 

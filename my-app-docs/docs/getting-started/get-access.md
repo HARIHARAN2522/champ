@@ -15,13 +15,13 @@ When a Super Admin invites you with the Admin role, you gain the ability to invi
 ### Your Responsibilities as an Admin:
 > Assign Roles Before Inviting
 Every new member must be assigned a role that aligns with your organization’s policies. Available roles include:
-- DevOps Engineer: Full access to infrastructure automation, CI/CD pipelines, and monitoring tools.
-- Cloud Engineer: Access to cloud resource management, cost optimization, and security configurations.
+- DevOps Engineer: Full access to infrastructure automation, CI/CD pipelines and monitoring tools.
+- Cloud Engineer: Access to cloud resource management, cost optimization and security configurations.
 - Member: Limited access (customizable per your workspace policies).
 
 #### Invite New Members
 Navigate to Workspace Settings > Team Management.
-Click "Invite Members", enter their email, and select a role.
+Click "Invite Members", enter their email and select a role.
 Invitations are sent automatically via email.
 Enforce Policy-Based Access
 All permissions are role-driven and comply with your organization’s security policies.

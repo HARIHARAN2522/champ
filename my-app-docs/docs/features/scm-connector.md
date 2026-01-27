@@ -92,7 +92,4 @@ CloudMaSa’s SCM Connector lets you:
 
 ---
 
-Let me know if you’d like to add:
--   **Metrics** for each repository (e.g., “Last synced: 5 minutes ago”)
--   **Integration guides** for specific repos
--   **Masa Bot commands** for SCM
+

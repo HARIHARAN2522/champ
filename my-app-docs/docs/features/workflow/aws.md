@@ -1,6 +1,7 @@
+# AWS
 Automate your AWS infrastructure with a guided, visual workflow — no CLI, no Terraform files, no guesswork.
 
-The **AWS Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure, and deploy AWS resources in minutes. Whether you're provisioning an S3 bucket, launching an EKS cluster, or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
+The **AWS Cloud Workflow** in CloudMaSa walks you through a 5-step process to securely connect, configure and deploy AWS resources in minutes. Whether you're provisioning an S3 bucket, launching an EKS cluster or setting up a full CI/CD pipeline, everything is done through an intuitive UI that generates production-ready Infrastructure-as-Code behind the scenes.
 
 All deployments are:
 -  **Secure**: Credentials encrypted, least-privilege enforced  
@@ -44,7 +45,7 @@ This screen shows:
 
 - All Terraform-managed deployments (like dep-1767006374290)
 - Resource type (e.g., ECR) and count
-- Click any deployment to view details, logs, or destroy it safely
+- Click any deployment to view details, logs or destroy it safely
 - “Create New Resource” button to start fresh with a clean slate
 
 ## 3.Modules — Select which cloud resources to deploy
@@ -54,7 +55,7 @@ This screen shows:
   style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }} 
 />
 
-Once connected, choose from a curated library of pre-built, secure, and scalable modules — each representing a set of related AWS resources.
+Once connected, choose from a curated library of pre-built, secure and scalable modules — each representing a set of related AWS resources.
 
 These modules are designed to follow AWS best practices and can be deployed individually or combined to build complex architectures.
 
@@ -72,7 +73,7 @@ Search bar to filter modules by name (e.g., “S3”, “EC2”, “Lambda”)
   style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }} 
 />
 
-This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code, and provider settings.
+This is where CloudMaSa turns complexity into clarity. Before deploying, you get a complete preview of your configuration — including cost, code and provider settings.
 
  Here’s what you’ll see:
 
@@ -88,7 +89,7 @@ This is where CloudMaSa turns complexity into clarity. Before deploying, you get
   style={{ width: '90%', height: 'auto', display: 'block', margin: '0 auto' }} 
 />
 
-You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably, and with real-time feedback.
+You’ve reviewed. You’ve confirmed. Now it’s time to deploy your resources — safely, predictably and with real-time feedback.
 
 The final summary shows:
 
