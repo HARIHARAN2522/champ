@@ -374,3 +374,55 @@ body::before {
 .menu__list-item-collapsible:hover > div::after {
   filter: brightness(1.5);
 }
+
+/* Enhance visibility of code blocks used as "command boxes" */
+.markdown > pre[class*="language-"] {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Make the specific "command box" stand out — e.g., use a soft teal or orange */
+.markdown > pre[class*="language-"]::before {
+  /* Optional: add a label like "Command" */
+  content: "Command";
+  display: inline-block;
+  background: #00a884; /* Teal — Argo CD brand color */
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: -1px;
+}
+
+/* Main background — light but contrasting */
+.markdown > pre[class*="language-"] {
+  background: #f0f9f6; /* Very light teal */
+  border-top: 3px solid #00a884; /* Strong top accent */
+}
+
+/* For dark mode (if enabled later), override */
+[data-theme='dark'] .markdown > pre[class*="language-"] {
+  background: #0d2620;
+  border-top: 3px solid #00c896;
+}
+
+/* Ensure text is readable */
+.markdown > pre[class*="language-"] code {
+  color: #1a1f25;
+  font-family: 'Fira Code', monospace;
+}
+
+/* If you want *only* certain blocks (e.g., those with class `.cmd-box`) to be styled differently: */
+.cmd-box {
+  background: #fff9e6; /* Light amber */
+  border-left: 4px solid #ff9800;
+  padding: 1rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.5rem 0;
+}
+
+.cmd-box code {
+  background: transparent;
+  padding: 0;
+}

@@ -17,7 +17,7 @@ import React from 'react';
     justifyContent: 'flex-start',
     paddingLeft: '2rem',
     paddingRight: '2rem',
-    boxShadow: '0 4px 16px rgba(0, 0, 0, 0.25)',
+    boxShadow: '0 4px 16px rgba(237, 228, 228, 0.25)',
   }}
 >
   <img

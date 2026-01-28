@@ -72,6 +72,8 @@ Request examples such as “Show me a sample workflow for Node.js”
 Use natural language commands like “I want to deploy my app to AWS”
 Review and approve all bot-proposed actions before execution
 
-### 11. Security Management
-Enterprise-grade security for your entire DevOps lifecycle.
+### 11. SUPPORT
+
+### 12. Security Management
+**COMING SOON**
 
